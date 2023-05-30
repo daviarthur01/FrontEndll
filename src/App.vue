@@ -22,14 +22,11 @@
           <td></td>
           <td></td>
           <td>
-            <button type="button" @click="editar(vet._id, i)"><img src="
-        https://cdn-icons-png.flaticon.com/512/3601/3601685.png" alt="Editar Pessoa" style="width: 19px;"></button>
+            <button type="button" @click="editar(vet._id, i)">Editar</button>
           </td>
 
           <td>
-            <button class="button" type="button" @click="deletar(vet._id, i)"><img
-                src="https://e7.pngegg.com/pngimages/554/641/png-clipart-rubbish-bins-waste-paper-baskets-computer-icons-recycling-garbage-can-white-text.png"
-                alt="Mandar para Lixeira" style=" margin: auto;   width: 19px;"></button>
+            <button class="button" type="button" @click="deletar(vet._id, i)">Deletar</button>
           </td>
         </tr>
 
